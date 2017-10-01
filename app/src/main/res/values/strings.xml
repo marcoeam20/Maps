@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FreshCart_Driver</string>
+    <string name="log_out">Log Out</string>
+    <string name="create_account">Create Account</string>
+    <string name="login">LOGIN</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="time">Time</string>
+    <string name="id">Id</string>
+    <string name="title_activity_customer_map">Map</string>
+</resources>

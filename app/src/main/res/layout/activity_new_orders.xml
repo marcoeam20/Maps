@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shopwise.freshcart_driver.NewOrders">
+
+
+    <include layout="@layout/app_bar_layout" android:id="@+id/neworders_bar"/>
+
+
+    <ListView
+        android:id="@+id/NO_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="57dp"
+        />
+
+</RelativeLayout>

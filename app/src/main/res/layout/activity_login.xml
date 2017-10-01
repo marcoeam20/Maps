@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shopwise.freshcart_driver.Login">
+
+    <EditText
+        android:id="@+id/log_txtEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtEmail"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Your Email Address"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textColorLink="@color/common_google_signin_btn_text_light_pressed" />
+
+    <EditText
+        android:id="@+id/log_txtPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtPassword"
+        android:layout_below="@+id/txtPassword"
+        android:layout_marginTop="100dp"
+        android:hint="Enter Your Password Again"
+        android:inputType="textPassword"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textColorLink="@color/common_google_signin_btn_text_light_pressed" />
+
+
+    <Button
+        android:id="@+id/log_btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtPassword"
+        android:layout_alignStart="@+id/txtPassword"
+        android:layout_below="@+id/txtPassword"
+        android:layout_marginTop="150dp"
+        android:text="@string/login" />
+
+</RelativeLayout>
